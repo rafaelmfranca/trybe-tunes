@@ -1,0 +1,45 @@
+.ProfileEdit {
+  background-color: var(--color-black-second);
+  border-radius: 6px;
+  margin: 60px auto;
+  max-width: 500px;
+  padding: 30px;
+}
+
+.ProfileEdit form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ProfileEdit img {
+  align-self: center;
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+}
+
+.ProfileEdit label {
+  color: white;
+}
+
+.ProfileEdit button {
+  align-self: center;
+  width: 150px;
+}
+
+textarea {
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  height: 60px;
+  margin-top: 5px;
+  padding: 12px;
+  resize: none;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+}

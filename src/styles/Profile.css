@@ -1,0 +1,40 @@
+.Profile {
+  align-items: center;
+  background-color: var(--color-black-second);
+  color: white;
+  display: flex;
+  gap: 50px;
+  height: 280px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.profile-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-infos p:nth-of-type( 1 ) {
+  font-size: 2.2em;
+}
+
+.profile-infos p:nth-of-type( n+2 ) {
+  color: var(--color-gray);
+  font-weight: 600;
+}
+
+.Profile img {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+}
+
+.Profile a {
+  color: var(--color-black-first);
+}
+
+.Profile button {
+  width: 150px;
+}

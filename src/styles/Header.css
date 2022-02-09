@@ -1,0 +1,49 @@
+.Header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-weight: 700;
+  height: 80px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-section {
+  align-items: center;
+  display: flex;
+  font-size: 0.9em;
+  gap: 25px;
+  justify-content: space-around;
+}
+
+.profile-header {
+  align-items: center;
+  color: var(--color-green);
+  display: flex;
+  gap: 5px;
+}
+
+.profile-header img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li a:hover {
+  color: var(--color-green);
+}
+
+.Header hr {
+  height: 15px;
+}
+

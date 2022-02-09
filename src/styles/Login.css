@@ -1,0 +1,81 @@
+.Login {
+  align-items: center;
+  background-color: var(--color-black-first);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+
+.form-login {
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  max-height: 300px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-login form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 50%;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.logo {
+  align-items: center;
+  color: white;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  max-width: 200px;
+  width: 100%;
+}
+
+.logo span {
+  font-size: 1.6em;
+}
+
+input[ type = 'text' ] {
+  background-color: #fafafa;
+  border: none;
+  border-bottom: 1.5px solid black;
+  border-radius: 5px;
+  font-size: 0.9em;
+  font-weight: 600;
+  height: 40px;
+  margin-top: 5px;
+  padding: 12px;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 12px 24px;
+}
+
+button:hover:enabled {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+button:hover:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,15 @@
+.Mensagem {
+  animation: spin 2s linear infinite;
+  border: 5px solid gray;
+  border-radius: 50%;
+  border-top: 5px solid var(--color-green);
+  height: 30px;
+  width: 30px;
+}
+
+@keyframes spin {
+
+  0% { transform: rotate(0deg); }
+
+  100% { transform: rotate(360deg); }
+}
